@@ -5,7 +5,8 @@
 }
 
 [class|=confetti] {
-    /* position: absolute; */
+    position: absolute;
+    top: 0;
 }
 
 .confetti-0 {
