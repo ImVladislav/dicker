@@ -125,6 +125,7 @@ body {
 
 .game-card.flip i {
     display: block;
+    content: \f0c2 !important;
 }
 
 .game-card.flip i+i {
@@ -137,4 +138,115 @@ body {
 
 .game-card:hover {
     background: #d1d1c0;
+}
+
+.fa-compass:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/1.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-stop:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/2.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-play:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/3.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-bolt:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/4.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-cloud:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/5.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-basketball-ball:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/6.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+.fa-atom:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/7.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
+}
+
+.fa-cogs:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    /* Ширина вашої іконки */
+    height: 50px;
+    /* Висота вашої іконки */
+    background-image: url('/8.svg');
+    /* Шлях до вашого зображення */
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;/
 }
