@@ -39,13 +39,28 @@ export const onWin = () => {
     // Викликаємо анімацію конфеті
     confettiContainer.classList.add('confetti-animation'); 
 
-    confettiContainer.appendChild(winMessage);
     // Створюємо елемент тексту для виграшу
     const winMessage = document.createElement('h2');
     winMessage.textContent = 'Congratulations! You won!';
     winMessage.classList.add('win-message');
-    
-    // Додаємо текст через 1 секунду після початку анімації
 
- // Час затримки для тексту (після початку конфеті)
+    // Додаємо текст через 1 секунду після початку анімації конфеті
+    setTimeout(() => {
+        confettiContainer.appendChild(winMessage);
+    }, 1000); // Час затримки для тексту (після початку конфеті)
+};
+
+export const createGameCard = (defaultIcon, flippedCardIcon) => {
+    const card = document.createElement('div');
+    card.classList.add('game-card');
+
+    const notFlippedCardI = document.createElement('i');
+    const flippedCardI = document.createElement('i');
+
+    notFlippedCardI.classList.add('fa', `fa-${defaultIcon}`);
+    flippedCardI.classList.add('fa', `fa-${flippedCardIcon}`);
+
+    card.append(flippedCardI, notFlippedCardI);
+
+    return card;
 };

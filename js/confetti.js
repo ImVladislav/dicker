@@ -1,5 +1,10 @@
 export const confetti = `
-    <div class="confetti-149"></div>
+<div class="win">
+    <p class="winText">
+        Dicker Winner
+    </p>
+</div>
+<div class="confetti-149"></div>
     <div class="confetti-148"></div>
     <div class="confetti-147"></div>
     <div class="confetti-146"></div>
