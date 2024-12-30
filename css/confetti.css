@@ -37,7 +37,49 @@
 }
 
 
+@media screen and (min-width: 1024px) {
+    .winText {
 
+        margin-top: 24px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 2400px) {
+    .winText {
+
+        margin-top: 70px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 2800px) {
+    .winText {
+
+        margin-top: 110px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 3400px) {
+    .winText {
+
+        margin-top: 160px;
+
+    }
+
+
+
+}
 
 
 /* Анімація для конфеті */
