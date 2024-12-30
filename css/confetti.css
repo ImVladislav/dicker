@@ -1,5 +1,6 @@
 .confetti {
-    width: 85%;
+    width: 100%;
+
     position: relative;
     height: 85%;
 }
@@ -7,7 +8,7 @@
 [class|=confetti] {
     position: absolute;
     top: 0;
-    z-index: -1;
+    z-index: 0;
 }
 
 .confetti-0 {
